@@ -8,7 +8,7 @@ My commercial work has largely involved TypeScript and React product software, N
 
 ## Current focus
 
-I am building [**zeroOS**](https://github.com/KZagaja/zeroOS), an experimental Linux-based operating system with a Rust-native userspace for `x86_64` and `aarch64`.
+I am building [**zeroOS**](https://github.com/KZagaja/zeroOS), an open-source experimental Linux-based operating system with a Rust-native userspace for `x86_64` and `aarch64`.
 
 The repository currently contains a dual-architecture UEFI boot flow, a static-musl Rust PID 1 with supervision and a versioned system API, plus storage, signed A/B update, rollback, and recovery machinery. Reproducible build inputs, dependency policy, architecture decisions, fuzzing, and native CI acceptance are treated as part of the system. It is pre-1.0: storage and release gates remain in progress, while the custom Wayland desktop and application platform are later milestones.
 
